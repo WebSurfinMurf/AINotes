@@ -1,0 +1,34 @@
+I have an ubuntu linux server with docker and portainer.io installed.  
+I have a github account for code, and dockerhub for docker images from builds.
+My preference for all code is Python, and if local linux scripts, bash.
+
+Code may have notes starting with #AI , do not lose these notes and re-add when regenerating code.  Read the notes for helpful hints.
+The idea is to PERSIST the #AI: notes with new generations of code.
+
+The ChatGPT model is connected to the github repo and can read all these files.
+
+I have a github account at https://github.com/WebSurfinMurf/.
+Here are some repositories and their use:
+
+Repo: https://github.com/WebSurfinMurf/pipeline-runner       
+Description: On Ubuntu server, invoking build.sh passing the project name to build into a docker container and deploy.  These scripts are on the linux server
+
+Repo: https://github.com/WebSurfinMurf/secrets
+Description: Deployed on my linux server, and NOT stored in the docker container, but the env is made available bsaed on the filename.  For example: MSFGet.env is use by project MSFGet to set its environment variables.
+Description: Credentials used for build/deploy on linux server is in pipeline.env, and should be sourced when needed but never include the secrets in code.
+
+Repo: https://github.com/WebSurfinMurf/MSFGet
+Description: Project uses playwright to screen scrape information from a web site, store it, convert different pages  to a CSV files, and email those files.
+
+Repo: https://github.com/WebSurfinMurf/AINotes
+Description: Contains a variety of files of AI notes, including this file.  
+
+Repo: https://github.com/WebSurfinMurf/AINotes/myEnvironment
+Description: Location of this file
+
+Repo: https://github.com/WebSurfinMurf/AINotes/repositories/*
+Description: The subdirectory "repositories" may contain folders matching the name of repositories above.  Notes in these folders are scoped to the corresponding project. 
+
+CICD Goal:
+On my windows 11 development machine I want to implement https://kilocode.ai/ to help with coding using VC code.  I want to deploy a dev container locally to run the code, and instrument for debugging.  When it looks good, then I can kick off build on my linux server.
+I want to use LiteLLM to enable routing to different LLMs, and use this when appropriate as part of the coding or rune-time needs.
