@@ -27,7 +27,7 @@ Repo: https://github.com/WebSurfinMurf/AINotes/myEnvironment
 Description: Location of this file
 
 Repo: https://github.com/WebSurfinMurf/AINotes/repositories/*
-Description: The subdirectory "repositories" may contain folders matching the name of repositories above.  Notes in these folders are scoped to the corresponding project. 
+Description: The subdirectory "repositories" may contain filenames matching the name of repositories above, with extension (.md) .  Notes in these folders are scoped to the corresponding project. 
 
 CICD Goal:
 On my windows 11 development machine I want to implement https://kilocode.ai/ to help with coding using VC code.  I want to deploy a dev container locally to run the code, and instrument for debugging.  When it looks good, then I can kick off build on my linux server.
