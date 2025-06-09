@@ -7,6 +7,11 @@ The idea is to PERSIST the #AI: notes with new generations of code.
 
 The ChatGPT model is connected to the github repo and can read all these files.
 
+CICD Goal:
+On my windows 11 development machine I want to implement https://kilocode.ai/ to help with coding using VC code.  I want to deploy a dev container locally to run the code, and instrument for debugging.  When it looks good, then I can kick off build on my linux server.
+I want to use LiteLLM to enable routing to different LLMs, and use this when appropriate as part of the coding or rune-time needs.
+
+
 I have a github account at https://github.com/WebSurfinMurf/.
 Here are some repositories and their use:
 
@@ -29,6 +34,5 @@ Description: Location of this file
 Repo: https://github.com/WebSurfinMurf/AINotes/repositories/*
 Description: The subdirectory "repositories" may contain filenames matching the name of repositories above, with extension (.md) .  Notes in these folders are scoped to the corresponding project. 
 
-CICD Goal:
-On my windows 11 development machine I want to implement https://kilocode.ai/ to help with coding using VC code.  I want to deploy a dev container locally to run the code, and instrument for debugging.  When it looks good, then I can kick off build on my linux server.
-I want to use LiteLLM to enable routing to different LLMs, and use this when appropriate as part of the coding or rune-time needs.
+Repo: https://github.com/WebSurfinMurf/AINotes/blob/main/CICD/TargetDev.md
+Description: Outline of my CICD goal in detail, with steps.
