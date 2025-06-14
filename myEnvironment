@@ -25,6 +25,15 @@ Description: Credentials used for build/deploy on linux server is in pipeline.en
 Repo: https://github.com/WebSurfinMurf/MSFGet
 Description: Project uses playwright to screen scrape information from a web site, store it, convert different pages  to a CSV files, and email those files.
 
+Repo: https://github.com/WebSurfinMurf/postgres
+Description: On Ubuntu server, there is a postgres database with configuration specified here, and a deployment of pgAdmin on the server for manual postgres access.  default database is :defaultdb
+
+Repo: https://github.com/WebSurfinMurf/postgres-mcp
+Description: On Ubuntu server, there is a postgres-mcp serverl making postgres available for access via MCP, Model Context Protocol.
+
+Repo: https://github.com/WebSurfinMurf/Career
+Description: This is NOT an IT asset, but documents of my resume and/or job descriptions.
+
 Repo: https://github.com/WebSurfinMurf/AINotes
 Description: Contains a variety of files of AI notes, including this file.  
 
